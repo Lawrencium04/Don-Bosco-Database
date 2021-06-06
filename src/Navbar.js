@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import { PageContent } from './HomePage.js';
-import Logo from 'C:/Programming/React/my-app/src/images/logo.png';
+import Logo from './images/logo.png';
 
 export class Navbar extends React.Component{
 

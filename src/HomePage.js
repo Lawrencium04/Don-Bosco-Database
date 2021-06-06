@@ -1,6 +1,6 @@
 import React from 'react';
 import './HomePage.css'
-import HomeImage from 'C:/Programming/React/my-app/src/images/HomeImage.jpg'
+import HomeImage from './images/HomeImage.jpg'
 
 function HomePage() {
     var teacher = 'none';

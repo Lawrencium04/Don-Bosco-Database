@@ -112,7 +112,7 @@ h1{
 .programTable {
     border-radius: 1vw 1vw 0px 0px;
     font-family: "Roboto";
-    font-size:calc(6px + 0.5vw);
+    font-size:calc(4px + 0.7vw);
     border-collapse: collapse;
     margin: auto;
     height: fit-content;

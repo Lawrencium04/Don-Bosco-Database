@@ -4,7 +4,7 @@ h1{
     text-align: center;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 3vw;
+    font-size: calc(25px + 1vw);
     padding-bottom: 0.7vw;
     border-bottom-style: solid;
     border-bottom-width: 0.3vw;
@@ -112,7 +112,7 @@ h1{
 .programTable {
     border-radius: 1vw 1vw 0px 0px;
     font-family: "Roboto";
-    font-size:calc(4px + 0.7vw);
+    font-size:calc(10px + 0.5vw);
     border-collapse: collapse;
     margin: auto;
     height: fit-content;
@@ -120,6 +120,7 @@ h1{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     overflow: hidden;
     margin-bottom: 10px;
+    max-width: 90vw;
 }
 
 
@@ -128,10 +129,11 @@ thead tr{
     color: rgb(97, 97, 97);
     font-family:sans-serif;
     height: calc(10px + 3vw);
+    padding: 1vw;
 }
 
 th, td {
-    height: 1vw;
+    height: fit-content;
     width: fit-content;
     padding: 1vw;
     text-align: center;
@@ -177,14 +179,14 @@ tbody tr:last-of-type {
 .Statistics h3{
     text-transform: uppercase;
     color: rgb(116, 115, 115);
-    font-size:calc(5px + 1vw);
+    font-size:calc(13px + 0.7vw);
 
 }
 
 .Statistics ul{
     padding: 0;
     margin: 0;
-    font-size:calc(5px + 1vw);
+    font-size:calc(13px + 0.7vw);
 }
 
 .Statistics li{

@@ -1,0 +1,201 @@
+h1{
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 3vw;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    color: rgb(131, 131, 131);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.432);
+    margin-bottom: 30px;
+}
+
+.HomeImage {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.726);
+    z-index: -1;
+}
+
+.HomeImage img{
+    width: 103%;
+    height:100vh;
+    min-height: 100px;
+    object-fit: cover;
+    filter: blur(3px) brightness(0.75);
+    -webkit-filter: blur(3px) brightness(0.75);
+    -moz-filter: blur(3px) brightness(0.75);
+    -ms-filter: blur(3px) brightness(0.75);
+    -o-filter: blur(3px) brightness(0.75);
+    margin: -7px;
+    position: absolute;
+    bottom: 0;
+    z-index: -10;
+}
+
+.WelcomeText {
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: relative;
+    overflow: hidden;
+}
+
+.WelcomeText p{
+    width: fit-content;
+    height: fit-content;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-size: 4vw;
+    text-align: center;
+    margin: auto;
+    font-weight:lighter;
+    text-shadow: 0px 5px 2px rgba(0, 0, 0, 0.705);
+    line-height: 100vh;
+}
+
+.goTo{
+    width: 100%;
+    position: relative;
+    bottom: 6vh;
+    text-align: center;
+    z-index: -1;
+}
+
+.goTo a{
+    width: fit-content;
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-size: 1.1vw;
+    cursor: pointer;
+    transition: font-size 0.2s;
+}
+
+.goTo a:hover{
+    font-size: 1.2vw;
+}
+
+#ProgramInfo{
+    margin: auto;
+    width: 98vw;
+    height: 88vh;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    position: relative;
+    z-index: -1;
+    top: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    background-color: white;
+    border-radius: 1.3vw;
+    bottom: 10px;
+}
+
+.Statistics {
+    margin: auto;
+    width: 98vw;
+    height: 146vh;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    position: relative;
+    top: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+    background-color: white;
+    border-radius: 1.3vw;
+    bottom: 10px;
+    text-align: center;
+}
+
+.Statistics h1{
+    margin-top: 40px;
+}
+
+.Statistics h3{
+    text-transform: uppercase;
+    color: rgb(116, 115, 115);
+}
+
+.Statistics ul{
+    padding: 0;
+    margin: 0;
+}
+
+.Statistics li{
+    color: rgb(112, 112, 112);
+}
+
+.Statistics section{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid grey;
+    width: fit-content;
+}
+
+.spacing {
+    height: 8vh;
+}
+
+.info {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    margin-top: -20px;
+    padding: 10px;
+}
+
+.programTable {
+    border-radius: 8px 8px 0px 0px;
+    font-family: "Roboto";
+    font-size: 1.2vw;
+    border-collapse: collapse;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+thead tr{
+    background-color: #feea3b;
+    color: rgb(97, 97, 97);
+    font-family:sans-serif;
+    height: 4vw;
+}
+
+th, td {
+    height: 1vw;
+    width: fit-content;
+    border-bottom: thin solid #a1a1a1;
+    padding: 1vw;
+    text-align: center;
+}
+
+td {
+    color: rgb(110, 110, 110);
+}
+
+tbody tr:nth-of-type(even){
+    background-color: rgb(240, 240, 240);
+}
+
+tbody tr:last-of-type {
+    border-bottom: 3px solid #feea3b;
+}

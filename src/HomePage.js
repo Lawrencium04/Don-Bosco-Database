@@ -4,9 +4,11 @@ import HomeImage from './images/HomeImage.jpg'
 
 function HomePage() {
 
-    window.onbeforeunload = function () {
-        window.scrollTo(0,0);
-    };
+    React.useEffect(() => {
+        window.onbeforeunload = function () {
+            window.scrollTo(0,0);
+        };
+    }, []);
     
     var teacher = 'none';
     var nrOfKids = 0;

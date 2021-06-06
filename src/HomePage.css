@@ -5,12 +5,12 @@ h1{
     text-transform: uppercase;
     font-weight: normal;
     font-size: 3vw;
-    padding-bottom: 5px;
+    padding-bottom: 0.7vw;
     border-bottom-style: solid;
-    border-bottom-width: 3px;
+    border-bottom-width: 0.3vw;
     color: rgb(131, 131, 131);
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.432);
-    margin-bottom: 30px;
+    margin-bottom: 4vw;
 }
 
 .HomeImage {
@@ -77,7 +77,7 @@ h1{
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Roboto";
-    font-size: 1.1vw;
+    font-size: calc(5px + 0.6vw);
     cursor: pointer;
     transition: font-size 0.2s;
 }
@@ -101,9 +101,54 @@ h1{
     background-color: white;
     border-radius: 1.3vw;
     bottom: 10px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 4vw;
+    padding-bottom: 4.5vw;
 }
+
+.spacing {
+    height: 8vh;
+}
+
+.programTable {
+    border-radius: 1vw 1vw 0px 0px;
+    font-family: "Roboto";
+    font-size:calc(6px + 0.5vw);
+    border-collapse: collapse;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+
+thead tr{
+    background-color: #feea3b;
+    color: rgb(97, 97, 97);
+    font-family:sans-serif;
+    height: calc(10px + 3vw);
+}
+
+th, td {
+    height: 1vw;
+    width: fit-content;
+    border-bottom: thin solid #a1a1a1;
+    padding: 1vw;
+    text-align: center;
+}
+
+td {
+    color: rgb(110, 110, 110);
+}
+
+tbody tr:nth-of-type(even){
+    background-color: rgb(240, 240, 240);
+}
+
+tbody tr:last-of-type {
+    border-bottom: 3px solid #feea3b;
+}
+
 
 .Statistics {
     margin: auto;
@@ -120,8 +165,8 @@ h1{
     border-radius: 1.3vw;
     bottom: 10px;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
 }
 
 .Statistics h3{
@@ -150,47 +195,3 @@ h1{
     width: fit-content;
 }
 
-.spacing {
-    height: 8vh;
-}
-
-.programTable {
-    border-radius: 8px 8px 0px 0px;
-    font-family: "Roboto";
-    font-size:calc(7.5px + 0.5vw);
-    border-collapse: collapse;
-    margin: auto;
-    height: fit-content;
-    width: fit-content;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    overflow: hidden;
-}
-
-
-
-thead tr{
-    background-color: #feea3b;
-    color: rgb(97, 97, 97);
-    font-family:sans-serif;
-    height: 4vw;
-}
-
-th, td {
-    height: 1vw;
-    width: fit-content;
-    border-bottom: thin solid #a1a1a1;
-    padding: 1vw;
-    text-align: center;
-}
-
-td {
-    color: rgb(110, 110, 110);
-}
-
-tbody tr:nth-of-type(even){
-    background-color: rgb(240, 240, 240);
-}
-
-tbody tr:last-of-type {
-    border-bottom: 3px solid #feea3b;
-}

@@ -3,6 +3,11 @@ import './HomePage.css'
 import HomeImage from './images/HomeImage.jpg'
 
 function HomePage() {
+
+    window.onbeforeunload = function () {
+        window.scrollTo(0,0);
+    };
+    
     var teacher = 'none';
     var nrOfKids = 0;
     var nrOfMeals = 0;

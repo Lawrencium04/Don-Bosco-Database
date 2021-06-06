@@ -5,9 +5,7 @@ import HomeImage from './images/HomeImage.jpg'
 function HomePage() {
 
     React.useEffect(() => {
-        window.onbeforeunload = function () {
             window.scrollTo(0,0);
-        };
     }, []);
     
     var teacher = 'none';

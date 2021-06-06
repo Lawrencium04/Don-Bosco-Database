@@ -66,7 +66,7 @@ h1{
 .goTo{
     width: 100%;
     position: relative;
-    bottom: 6vh;
+    bottom: calc(4vh + 15px);
     text-align: center;
     z-index: -1;
 }
@@ -119,6 +119,7 @@ h1{
     width: fit-content;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 
@@ -132,9 +133,13 @@ thead tr{
 th, td {
     height: 1vw;
     width: fit-content;
-    border-bottom: thin solid #a1a1a1;
     padding: 1vw;
     text-align: center;
+}
+
+td {
+    border-bottom: 0.01vw solid #a1a1a1;
+    border-top: 0.01vw solid #a1a1a1;
 }
 
 td {
@@ -146,7 +151,7 @@ tbody tr:nth-of-type(even){
 }
 
 tbody tr:last-of-type {
-    border-bottom: 3px solid #feea3b;
+    border-bottom: 0.3vw solid #a1a1a1;
 }
 
 

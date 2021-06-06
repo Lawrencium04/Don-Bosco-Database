@@ -10,7 +10,7 @@ h1{
     border-bottom-width: 0.3vw;
     color: rgb(131, 131, 131);
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.432);
-    margin-bottom: 4vw;
+    margin-bottom: calc(25px + 2vw);
 }
 
 .HomeImage {
@@ -56,7 +56,7 @@ h1{
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Roboto";
-    font-size: calc(15px + 3vw);
+    font-size: calc(25px + 3vw);
     text-align: center;
     margin: auto;
     font-weight:lighter;
@@ -66,7 +66,7 @@ h1{
 .goTo{
     width: 100%;
     position: relative;
-    bottom: calc(4vh + 15px);
+    bottom: calc(4vh + 20px);
     text-align: center;
     z-index: -1;
 }
@@ -77,7 +77,7 @@ h1{
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Roboto";
-    font-size: calc(5px + 0.6vw);
+    font-size: calc(10px + 0.3vw);
     cursor: pointer;
     transition: font-size 0.2s;
 }
@@ -101,8 +101,8 @@ h1{
     background-color: white;
     border-radius: 1.3vw;
     bottom: 10px;
-    padding-top: 4vw;
-    padding-bottom: 4.5vw;
+    padding-top: calc(25px + 1.5vw);
+    padding-bottom: calc(25px + 1.5vw);
 }
 
 .spacing {
@@ -172,8 +172,8 @@ tbody tr:last-of-type {
     border-radius: 1.3vw;
     bottom: 10px;
     text-align: center;
-    padding-top: 4vw;
-    padding-bottom: 4vw;
+    padding-top: calc(25px + 1.5vw);
+    padding-bottom: calc(25px + 1.5vw);
 }
 
 .Statistics h3{

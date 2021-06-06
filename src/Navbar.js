@@ -30,9 +30,9 @@ export class Navbar extends React.Component{
                 </div>
                 <div className={this.state.menuIsOpened ? 'MoreOptions-Opened' : 'MoreOptions-Closed'}>
                     <ul>
-                        <li ><a href="">Food Data</a></li>
-                        <li ><a href="">Kids Data</a></li>
-                        <li ><a href="">Classroms Data</a></li>
+                        <li ><a href="">Meals</a></li>
+                        <li ><a href="">Kids</a></li>
+                        <li ><a href="">Classroms</a></li>
                     </ul>
                 </div>
             </div>

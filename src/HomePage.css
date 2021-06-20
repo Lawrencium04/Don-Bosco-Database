@@ -50,8 +50,8 @@ h1{
 }
 
 .WelcomeText p{
-    width: 50vw;
-    height: fit-content;
+    width: 90%;
+    height: max-content;
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
@@ -187,6 +187,7 @@ tbody tr:last-of-type {
     padding: 0;
     margin: 0;
     font-size:calc(13px + 0.7vw);
+    list-style: none;
 }
 
 .Statistics li{
